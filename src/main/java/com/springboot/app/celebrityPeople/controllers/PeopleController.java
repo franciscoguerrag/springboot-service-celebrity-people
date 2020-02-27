@@ -44,7 +44,7 @@ public class PeopleController {
 	
 	@PostMapping("/createPerson")
 	@ResponseStatus(HttpStatus.CREATED)
-	public Person crear(@RequestBody 	Person person) {
+	public Person crear(@RequestBody Person person) {
 		return iPersonService.save(person);
 	}
 	
@@ -53,5 +53,4 @@ public class PeopleController {
 	public Acquaintances crear(@RequestBody Acquaintances acquaintance) {
 		return iAcuaintancesService.save(acquaintance);
 	}
-	
 }
