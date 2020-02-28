@@ -19,7 +19,7 @@ It uses a H2 in memory database (for now), can be changed easily in the `applica
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.arc.sbtest.SBtemplateApplication` class from your IDE.
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.springboot.app.celebrityPeople.SpringbootServiceCelebrityPeopleApplication` class from your IDE.
 
 - Download the zip or clone the Git repository.
 - Unzip the zip file (if you downloaded one)
@@ -40,7 +40,7 @@ Note : If you change this port you need to change the port in the service that i
 ## Open file IMPORT.SQL on Resources
 
 by Default
- - Has insertions in two tables (person and acquaintances)
+ - It contains insertions in two tables (person and acquaintances)
  - 7 people
  - Everybody knows person with ID 0
  - Person 0 doesn´t know anybody.
