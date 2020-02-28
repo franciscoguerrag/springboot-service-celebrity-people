@@ -59,12 +59,12 @@ it is important that the data accomplish with the statement otherwise the celebr
 
 ### URLs
 
-|  URL |  Method | Response |
+|  URL |  Method | Response | Request |
 |----------|--------------|--------------|
-|`http://localhost:8001/list`                           | GET | People List|
-|`http://localhost:8001/createPerson`                           | GET | Person|
-|`http://localhost:8001/createAcquaintance`                           | GET | Acquaintance|
-|`http://localhost:8001/item/{id}`                           | POST | Person|
+|`http://localhost:8001/list`                           | GET | People List| |
+|`http://localhost:8001/createPerson`                           | POST | Person| {"name": "name"}|
+|`http://localhost:8001/createAcquaintance`                           | POST | Acquaintance|{"parent_id": "parent_id", "related_id": "related_id"} |
+|`http://localhost:8001/item/{id}`                           | GET | Person| PathVariable |
 
 
 ## Built With
