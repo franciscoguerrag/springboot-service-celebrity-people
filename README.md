@@ -1,60 +1,53 @@
 # springboot-service-celebrity-people
 
-Service celebrity people for fetching data to find celebrities
+Service celebrity people for fetching data to find celebrities.
+
+
+The project you have configured a H2 database in memory, and there are 2 tables, one with the people and the other with the people known for each
+
+## Note 
+
+Considering "In a team of n people, a celebrity is known by everyone but he/she doesn't know anybody".
+it is important that the data accomplish with the statement otherwise the celebrity will not be found.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Java 8 ++
 
-```
-Give examples
-```
+Spring boot
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Clone the repository with GITHUB
 
-Say what the step will be
+Open the project with your IDE
 
-```
-Give the example
-```
+## Open file IMPORT.SQL on Resources
 
-And repeat
+by Default
+ - Has insertions in two tables (person and acquaintances)
+ - 7 people
+ - Everybody knows person with ID 0
+ - Person 0 doesn´t know anybody.
+ - Person 0 is the celebrity
+ 
+You can insert new registers or delete them.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Considering "In a team of n people, a celebrity is known by everyone but he/she doesn't know anybody".
+it is important that the data accomplish with the statement otherwise the celebrity will not be found.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Select the project and select Run as SpringBootApp.
+
+The server port for the application by default is 8001
+You can change it in Application.properties.
+
+Note : If you change this port you need to change the port in the service that invoke this one 
 
 ## Built With
 
@@ -62,11 +55,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/franciscoguerrag/springboot-service-celebrity-people)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Francisco Guerra** 
 
 ## Acknowledgments
 
