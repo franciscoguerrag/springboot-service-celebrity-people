@@ -2,6 +2,9 @@
 
 Spring Boot application for fetching data of People and their Acquaintances, also allows People creations and Acquaintances creations.
 
+**This microservice is just for fetching data, you only need deploy it locally**
+
+
 ## Diagram
 
 ![alt text](https://github.com/franciscoguerrag/springboot-service-celebrity-people/blob/master/celebrityDiagram.png)
