@@ -1,6 +1,6 @@
 # springboot-service-celebrity-people
 
-Spring Boot application for fetching data of People and their Acquaintances, also allows People creations and Acquaintances creations.
+Spring Boot application for fetching data of People and their Acquaintances, also allows People creation and Acquaintances creation.
 
 ## Getting Started
 
