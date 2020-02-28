@@ -1,6 +1,6 @@
 # springboot-service-celebrity-people
 
-Spring Boot application for fetching data of People and their Acquaintances, also allows People creation and Acquaintances creation.
+Spring Boot application for fetching data of People and their Acquaintances, also allows People creations and Acquaintances creations.
 
 ## Getting Started
 
@@ -59,12 +59,12 @@ it is important that the data accomplish with the statement otherwise the celebr
 
 ### URLs
 
-|  URL |  Method | Response | Request |
+|  URL |  Method | Request |
 |----------|--------------|--------------|
-|`http://localhost:8001/list`                           | GET | People List| |
-|`http://localhost:8001/createPerson`                           | POST | Person| {"name": "name"}|
-|`http://localhost:8001/createAcquaintance`                           | POST | Acquaintance|{"parent_id": "parent_id", "related_id": "related_id"} |
-|`http://localhost:8001/item/{id}`                           | GET | Person| PathVariable |
+|`http://localhost:8001/list`                           | GET | |
+|`http://localhost:8001/createPerson`                           | POST |  {"name": "name"} |
+|`http://localhost:8001/createAcquaintance`                           | POST | {"parent_id": "parent_id", "related_id": "related_id"} |
+|`http://localhost:8001/item/{id}`                           | GET | |
 
 
 ## Built With
