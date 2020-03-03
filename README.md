@@ -53,9 +53,9 @@ Note : If you change this port you need to change the port in the service that i
 by Default
  - It contains insertions in two tables (person and acquaintances)
  - 7 people
- - Everybody knows person with ID 0
- - Person 0 doesn´t know anybody.
- - Person 0 is the celebrity
+ - Everybody knows person with ID 3
+ - Person 3 doesn´t know anybody.
+ - Person 3 is the celebrity
  
 You can insert new registers or delete them.
 
